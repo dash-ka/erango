@@ -4,10 +4,10 @@ from collections import defaultdict
 from pathlib import Path
 from alive_progress import alive_bar
 
-import m.mangopie as mp
-from pie.cli import args
-from pie.util import process_field
-from pie.config import server, relations, column2type, properties, delimited_fields
+import mango.mangopie as mp
+from mango.cli import args
+from mango.util import process_field
+from mango.config import server, relations, column2type, properties, delimited_fields
 
 
 def main():
