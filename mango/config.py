@@ -1,7 +1,7 @@
 from pathlib import Path
 import tomllib
 
-path = Path(__file__).parent / "import_rules.toml"
+path = Path(__file__).parent / "recipe.toml"
 
 with open(path, mode="rb") as fb:
     rules = tomllib.load(fb)
