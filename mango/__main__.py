@@ -6,7 +6,7 @@ from alive_progress import alive_bar
 
 import mango.mangopie as mp
 from mango.cli import args
-from mango.util import process_field
+from mango.spoon import process_field
 from mango.config import server, relations, column2type, properties, delimited_fields
 
 
