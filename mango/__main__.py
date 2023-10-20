@@ -4,7 +4,7 @@ from collections import defaultdict
 from pathlib import Path
 from alive_progress import alive_bar
 
-import pie.mangopie as mp
+import m.mangopie as mp
 from pie.cli import args
 from pie.util import process_field
 from pie.config import server, relations, column2type, properties, delimited_fields
